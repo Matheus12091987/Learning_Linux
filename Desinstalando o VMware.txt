@@ -1,0 +1,9 @@
+Algo bastante simples mas que pode dar um pouquinho de trabalho é como desinstalar o VMware da sua distribuição Linux, isso devido não existir um atalho ou ícone em que clicamos para executar essa ação.
+
+Caso esteja utilizando o VMware Player utilize o seguinte comando no Terminal (CTRL + ALT + T)  para iniciar o desinstalador:
+
+sudo vmware-installer -u vmware-player
+
+Caso esteja utilizando o VMware Workstation utilize o seguinte comando no Terminal (CTRL + ALT + T)  para iniciar o desinstalador:
+
+sudo vmware-installer -u vmware-workstation

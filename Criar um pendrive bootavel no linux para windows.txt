@@ -1,0 +1,7 @@
+1 - para windows 10
+
+	https://www.blogopcaolinux.com.br/2017/03/Como-criar-um-pen-drive-bootavel-do-Windows-no-Linux.html
+
+2 - Outra opção
+
+	https://www.blogopcaolinux.com.br/2015/12/como-criar-um-pendrive-bootavel-pelo.html

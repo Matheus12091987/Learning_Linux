@@ -1,0 +1,27 @@
+sites da pesquisa:
+
+	https://askubuntu.com/questions/1034173/arduino-serial-communication-uploader-not-working
+	https://www.vivaolinux.com.br/dica/Arduino-Porta-serial-nao-disponivel-na-IDE-Resolvido/
+
+Passo a passo:
+
+	abra o terminal e digite os comandos abaixos
+
+		sudo usermod -a -G tty teu_usuario
+		sudo usermod -a -G dialout teu_usuario
+	
+	apos estes dois comandos verifique se apareceu o tty e dialout para o seu grupo
+	digite no terminal
+
+		groups
+	
+	se apareceu tudo certinho, conecte o arduino e digite este comando no terminal
+	
+		ls -l /dev/tty*
+	
+	deve aparecer no final um ttyUSB0 ou algo do tipo
+	se sim faça o comando abaixo
+
+		sudo chmod a+rw /dev/ttyUSB0
+
+	reinicie o pc e verifique se a aplicação ja liberou o acesso ao serial port (arduino)

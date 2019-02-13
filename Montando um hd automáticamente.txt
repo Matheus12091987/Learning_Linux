@@ -1,0 +1,5 @@
+https://www.vivaolinux.com.br/artigo/Montando-particoes-automaticamente
+
+saber o uuid
+
+https://www.vivaolinux.com.br/topico/Ubuntu-e-Kubuntu/Saber-o-UUID-de-um-HD

@@ -1,0 +1,20 @@
+Arquivo .bundle e .run
+
+	Um arquivo .bundle e .run é um arquivo executável, assim como um arquivo de instalação comum do Windows. Você deve executá-lo pelo Terminal.
+
+	Depois de baixar o arquivo, entre no Terminal (Aplicativos/Acessórios/Terminal).
+
+	Entre na pasta do download
+	
+	Apesar da extensão incomum, ele é um arquivo executável normal. Para instalar, basta torná-lo executável usando o “chmod +x” e em seguida executá-lo como root:
+
+	# chmod +x nome_do_arquivo.bundle
+	# chmod +x nome_do_arquivo.run
+
+	cd /home/usuario
+	sudo ./nome_do_arquivo.bundle
+	sudo ./nome_do_arquivo.run
+
+Arquivo .deb
+
+	sudo dpkg -i nome_do_arquivo.deb

@@ -1,0 +1,9 @@
+https://www.vivaolinux.com.br/topico/Impressoras/Instalacao-Impressora-hp-laserjet-p1005
+
+https://developers.hp.com/hp-linux-imaging-and-printing/gethplip
+
+https://sourceforge.net/projects/hplip/
+
+https://sempreupdate.com.br/como-executar-um-arquivo-run-ou-bin-no-ubuntu-fedora-opensuse/
+
+Pesquisar tesserocr

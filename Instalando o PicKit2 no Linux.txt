@@ -1,0 +1,7 @@
+Instalando o PicKit2 no Linux
+
+https://www.vivaolinux.com.br/artigo/Utilizando-PICkit-2-no-GNU-Linux
+
+Pacote de instalação
+
+http://www.waveguide.se/?article=9&file=pk2cmdv1.20LinuxMacSource.tar.gz
