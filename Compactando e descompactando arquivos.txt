@@ -1,0 +1,14 @@
+Linux: compactar/descompactar um arquivo ZIP
+
+	De modo geral, os arquivos ZIP são usados no Microsoft Windows. O formato de compressão preferido do Linux é o GZip (.gz) ou o Tarball (.tar.gz). Mas você também pode compactar e descompactar arquivos ZIP através do ZIP/UNZIP, disponível na maioria das distribuições. 
+
+	Para compactar um conjunto de arquivos em computadores com Linux, insira: 
+
+		zip -r nome_do_arquivo.zip diretório_ou_arquivo. 
+
+	O interruptor -r indica que o conteúdo do diretório e seus subdiretórios devem ser compactados. 
+
+	Para descompactar um arquivo, digite: 
+
+		unzip nome_do_arquivo.zip -d destino. 
+
