@@ -1,0 +1,69 @@
+-> Android Studio
+
+	Site da pesquisa, em 17/02/2019
+
+		https://www.edivaldobrito.com.br/instalar-android-studio-no-ubuntu/
+
+	Como instalar a mais recente versão do Android Studio no Ubuntu
+
+		Existem dois repositórios que disponibilizam o Android Studio para o Ubuntu.
+
+		O primeiro fornece compilações baseadas nas builds do Google mais recentes, e o segundo, também oferece pacotes bem recentes.
+
+		Escolha o que serve melhor para você e siga os procedimentos abaixo para instalar a mais recente versão do Android Studio no Ubuntu.
+
+		
+			Como instalar a mais recente versão Google do Android Studio no Ubuntu
+
+				Para instalar a mais recente versão Google do Android Studio no Ubuntu e derivados, faça o seguinte:
+
+					Passo 1. Abra um terminal usando o Dash ou pressionando as teclas Ctrl+Alt+T;
+					Passo 2. Se ainda não tiver, adicione o repositório do programa com este comando ou use esse tutorial;
+
+						sudo add-apt-repository ppa:maarten-fonville/android-studio
+
+					Passo 3. Atualize o APT com o comando:
+
+						sudo apt-get update
+
+					Passo 4. Agora instale o programa com o comando:
+
+						sudo apt-get install android-studio
+
+					Passo 5. Se você quiser instalar uma versão “Preview”, use o comando abaixo;
+
+						sudo apt-get install android-studio-preview
+
+			Como instalar o Android Studio no Ubuntu
+
+				Para instalar o Android Studio no Ubuntu e derivados, faça o seguinte:
+
+					Passo 1. Abra um terminal usando o Dash ou pressionando as teclas Ctrl+Alt+T;
+					Passo 2. Se ainda não tiver, adicione o repositório do programa com este comando ou use esse tutorial;
+
+						sudo apt-add-repository ppa:paolorotolo/android-studio
+
+					Passo 3. Atualize o APT com o comando:
+
+						sudo apt-get update
+					
+					Passo 4. Agora instale o programa com o comando:
+
+						sudo apt-get install android-studio
+			Como instalar o Android Studio manualmente ou em outras distros
+
+				Se não quiser adicionar o repositório ou quer tentar instalar em outra distribuição baseada em Debian, você pode pegar o arquivo DEB do programa nesse link ou link (Google), e instalar ele manualmente (clicando duas vezes nele).
+
+				Mas lembre-se! Ao optar por esse tipo de instalação, você não receberá nenhuma atualização do programa.
+
+				Uma vez instalado, inicie o assistente de configuração a partir do Dash (pode ser necessário reiniciar), ou apenas execute o comando /opt/android-studio/bin/studio.sh.
+
+			Desinstalando o Android Studio no Ubuntu e derivados
+
+				Para desinstalar o Android Studio no Ubuntu e derivados, faça o seguinte:
+
+					Passo 1. Abra um terminal;
+					Passo 2. Desinstale o programa, usando os comandos abaixo;
+
+						sudo apt-get remove android-studio --auto-remove
+						sudo apt-get autoremove
